@@ -1,0 +1,72 @@
+/***************************TAG SELECTORS*******************************/
+
+body {
+  background-color: #fcf8f3;
+  font-family: monospace;
+}
+
+h1 {
+  color: #bc5148;
+  text-align: center;
+}
+
+h3 {
+  color: #5c2626;
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-top-color: #7d7d7d;
+  border-width: 3px;
+  width: 10%;
+}
+
+
+img:hover {
+  background-color: #b74242;
+}
+
+
+p {
+  color: #5c2626;
+  text-align: center;
+}
+
+/***************************CLASS SELECTORS*******************************/
+/***use class selectors to apply styles to groups of related items; can use the
+same class selector multiple times. HTML elements can have more than one
+class, but only one ID***/
+
+/***pseudo-classes (from MDN): Pseudo-classes let you apply a style to an element
+not only in relation to the content of the document tree, but also in relation
+to external factors like the history of the navigator (:visited, for example),
+the status of its content (like :checked on certain form elements), or the position
+of the mouse (like :hover, which lets you know if the mouse is over an element or not).***/
+
+.bacon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 38%;
+}
+
+.oink {
+  display: block;
+  margin-right: auto;
+  width: 5%;
+}
+
+.circular {
+  border-radius: 1%
+}
+
+/***************************ID SELECTORS*******************************/
+/***only use ID selectors to apply speciffic styles to a single element
+ID selectors cannot be repeated.  HTML elements can have more than one class,
+but only one ID***/
+
+/*#heading {
+  color:blue
+}*/
